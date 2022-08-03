@@ -55,23 +55,36 @@ export default {
     display: flex;
     flex-direction: row;
     background-color: #cecece;
+    border-radius: 25px;
+    width: 70%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-one {
     background-color: #ffb0b0;
     padding: 2.5%;
     width: 30%;
+    border-radius: 25px;
+    align-items: center;
+
 }
 
 .container-two {
     background-color: #cdc0fc;
-    width: 60%;
+    align-items: center;
+    width: 65%;
 }
 
 .link a{
     text-decoration: none;
     color: black;
     font-size: 10px;
+}
+
+.about-me {
+  align-items: center;
 }
 
 </style>
