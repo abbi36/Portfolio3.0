@@ -8,20 +8,28 @@
         </div>
         <div class="social-links">
                 <div class="link">
-                    <a href="">
-                    <img src="" alt="">
-                    <h2>Github</h2></a>
+                    <a href="https://github.com/abbi36">
+                    <img src="../assets/github.png" alt="">
+                    <h2>Github</h2>
+                    </a>
                 </div>
                 <div class="link">
                     <a href="">
-                    <img src="" alt="">
+                    <img src="../assets/linkedin.png" alt="">
                     <h2>LinkedIn</h2>
                     </a>
                 </div>
                 <div class="link">
                     <a href="">
-                    <img src="" alt="">
-                    <h2>Resume</h2></a>
+                    <img src="../assets/resume..png" alt="">
+                    <h2>Resume</h2>
+                    </a>
+                </div>
+                <div class="link">
+                    <a href="">
+                    <img src="../assets/gmail.png" alt="">
+                    <h2>Email</h2>
+                    </a>
                 </div>
         </div>
     </div>
@@ -32,9 +40,11 @@
         </div>
         <div class="skills">
             <h1>Tech Skills</h1>
+            <div class="logos">
             <img src="" alt="">
             <img src="" alt="">
             <img src="" alt="">
+            </div>
         </div>
     </div>
 </div>
@@ -47,9 +57,15 @@ export default {
 </script>
 
 <style scoped>
-    link {
+
+    .img {
         height: 25%;
     }
+
+    .link img{
+        height: 1%;
+    }
+
 
 .container {
     display: flex;
@@ -74,7 +90,7 @@ export default {
 .container-two {
     background-color: #cdc0fc;
     align-items: center;
-    width: 65%;
+    width: 70%;
 }
 
 .link a{
@@ -84,7 +100,7 @@ export default {
 }
 
 .about-me {
-  align-items: center;
+    align-items: center;
 }
 
 </style>
