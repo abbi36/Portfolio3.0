@@ -35,8 +35,8 @@
     </div>
     <div class="container-two">
         <div class="about-me">
-            <h1>Something</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sunt quae ut doloribus nostrum cupiditate necessitatibus temporibus voluptates, quo corporis, beatae qui deleniti. Veritatis, quae laudantium? Fuga numquam aut asperiores!</p>
+            <h1>Hello World</h1>
+            <p>Lorem ipsum dolor sit,  deleniti. Veritatis, quae laudantium? Fuga numquam aut asperiores!</p>
         </div>
         <div class="skills">
             <h1>Tech Skills</h1>
@@ -60,7 +60,7 @@ export default {
 
 <style scoped>
 
-  .profile {
+.profile {
     font-size: medium;
   }
 
@@ -94,8 +94,13 @@ export default {
 }
 
 .container-two {
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
     background-color: #b5c99a;
+    margin-top: -20%;
     align-items: center;
+    margin-top: 5%;
     width: 70%;
 }
 
@@ -110,10 +115,7 @@ export default {
 }
 
 .logos img{
-  height: 5rem;
-
+    height: 5rem;
 }
-
-
 
 </style>
