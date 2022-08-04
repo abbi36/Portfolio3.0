@@ -14,20 +14,20 @@
                     </a>
                 </div>
                 <div class="link">
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/abbigail-engel-1a81171a2/">
                     <img src="../assets/linkedin.png" alt="">
                     <h2>LinkedIn</h2>
                     </a>
                 </div>
                 <div class="link">
                     <a href="">
-                    <img src="../assets/resume..png" alt="">
+                    <img src="../assets/resume.png" alt="">
                     <h2>Resume</h2>
                     </a>
                 </div>
                 <div class="link">
                     <a href="">
-                    <img src="../assets/gmail.png" alt="">
+                    <img src="../assets/email.png" alt="">
                     <h2>Email</h2>
                     </a>
                 </div>
@@ -41,16 +41,18 @@
         <div class="skills">
             <h1>Tech Skills</h1>
             <div class="logos">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="../assets/javascript.png" alt="">
+            <img src="../assets/html.png" alt="">
+            <img src="../assets/css.png" alt="">
+            <img src="../assets/vue.png" alt="">
+            <img src="../assets/react.png" alt="">
             </div>
         </div>
     </div>
 </div>
 </template>
 
-<script>
+<script scoped>
 export default {
   name: 'HelloWorld',
 }
@@ -58,19 +60,22 @@ export default {
 
 <style scoped>
 
+  .profile {
+    font-size: medium;
+  }
+
     .img {
         height: 25%;
     }
 
     .link img{
-        height: 1%;
+        height: 3rem;
     }
-
 
 .container {
     display: flex;
     flex-direction: row;
-    background-color: #cecece;
+    background-color: #b5c99a;
     border-radius: 25px;
     width: 70%;
     align-items: center;
@@ -79,8 +84,9 @@ export default {
 }
 
 .container-one {
-    background-color: #ffb0b0;
-    padding: 2.5%;
+    background-color: #70e000;
+    box-shadow: 10px 5px 5px gray;
+    padding: 3%;
     width: 30%;
     border-radius: 25px;
     align-items: center;
@@ -88,7 +94,7 @@ export default {
 }
 
 .container-two {
-    background-color: #cdc0fc;
+    background-color: #b5c99a;
     align-items: center;
     width: 70%;
 }
@@ -96,11 +102,18 @@ export default {
 .link a{
     text-decoration: none;
     color: black;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .about-me {
     align-items: center;
 }
+
+.logos img{
+  height: 5rem;
+
+}
+
+
 
 </style>
