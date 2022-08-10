@@ -20,13 +20,13 @@
                     </a>
                 </div>
                 <div class="link">
-                    <a href="">
+                    <a href="../files/Abbi.pdf">
                     <img src="../assets/resume.png" alt="">
                     <h2>Resume</h2>
                     </a>
                 </div>
                 <div class="link">
-                    <a href="">
+                    <a href="mailto: abbi.engel33@gmail.com">
                     <img src="../assets/email.png" alt="">
                     <h2>Email</h2>
                     </a>
@@ -36,7 +36,7 @@
     <div class="container-two">
         <div class="about-me">
             <h1>Hello World</h1>
-            <p>Lorem ipsum dolor sit,  deleniti. Veritatis, quae laudantium? Fuga numquam aut asperiores!</p>
+            <p>We appreciate you joining our club.</p>
         </div>
         <div class="skills">
             <h1>Tech Skills</h1>
@@ -85,7 +85,6 @@ export default {
 
 .container-one {
     background-color: #70e000;
-    box-shadow: 10px 5px 5px gray;
     padding: 3%;
     width: 30%;
     border-radius: 25px;
@@ -96,6 +95,7 @@ export default {
 .container-two {
     display: flex;
     flex-direction: column;
+    border-radius: 25px;
     gap: 5em;
     background-color: #b5c99a;
     margin-top: -20%;
@@ -117,5 +117,6 @@ export default {
 .logos img{
     height: 5rem;
 }
+
 
 </style>
