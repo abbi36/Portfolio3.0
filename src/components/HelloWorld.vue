@@ -36,7 +36,7 @@
     <div class="container-two">
         <div class="about-me">
             <h1>Hello World</h1>
-            <p>We appreciate you joining our club.</p>
+            <p>Welcome to my Portfolio!</p>
         </div>
         <div class="skills">
             <h1>Tech Skills</h1>
